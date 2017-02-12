@@ -6,7 +6,7 @@
     "Vlad Zelenko"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/VladZelenko/skoko-home-page",
+  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -14,5 +14,9 @@
     "app/libs/",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1"
+  }
 }

@@ -1,0 +1,11 @@
+.hero-btn {
+	display: block;
+	width: 190px;
+	height: 40px;
+	background-color: $primary_font_color;
+	border-bottom: 4px solid $origin_font_color;
+	color: $secondary_font_color;
+	font: bold 24px/40px $primary_font;
+	text-align: center;
+	cursor: pointer;
+}

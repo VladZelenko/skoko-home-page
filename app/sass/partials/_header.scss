@@ -1,0 +1,30 @@
+.header {
+	width: 100%;
+	h1 {
+		display: block;
+		width: 115px;
+		height: 115px;
+	}
+	.container {
+		min-height: 175px;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+.nav {
+	display: flex;
+	justify-content: flex-end;
+}
+.nav li a,
+#touch-menu {
+	display: block;
+	padding: 10px 15px;
+	color: $primary_font_color;
+	font: 700 14px/24px $primary_font;
+	text-transform: uppercase;
+}
+.nav li a:hover {color: $secondary_font_color;}
+#touch-menu:hover {color: $origin_font_color;}
+#touch-menu {display: none;}

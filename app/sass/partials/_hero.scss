@@ -1,0 +1,38 @@
+.hero {
+	background: url('../../img/slider-bg.png') no-repeat;
+	background-size: cover;
+	min-height: 700px;
+	padding: 20px 0;
+
+	.flexbox {
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.col-1, .col-2 {width: 600px; margin: 0 auto;}
+	.head-box {padding-top: 60px;}
+	h2 {
+		max-width: 600px;
+		min-width: 300px;
+		width: 100%;
+		color: $primary_font_color;
+		font: bold 70px $primary_font;
+		text-align: center;
+		.part-1 {
+			max-width: 400px;
+			min-width: 300px;
+			width: 100%;
+			background-color: $origin_font_color;}
+	}
+	p {
+		padding: 15px 0 60px 0;
+		max-width: 365px;
+		min-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+		color: $secondary_font_color;
+		font: bold 24px $primary_font;
+		text-align: center;
+		span {background-color: #414146;}
+	}
+	.hero-btn {margin: 0 auto 60px auto;}
+}
